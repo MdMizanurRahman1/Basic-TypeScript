@@ -50,3 +50,26 @@ let person2: Person = {
 }
 
 console.log(person.age);
+
+// array
+
+const numbers: number[] = [12, 34, 45, 67, 98];
+let num1: (number | string)[] = [12, 34, 'stry'];
+
+const persons: Person[] = [
+    {
+        name: 'Shah Alam',
+        age: 23,
+        hobby: 'cycling'
+    },
+    {
+        name: 'Shaham',
+        age: 20,
+        hobby: 'chilling'
+    },
+    {
+        name: 'Shahamam',
+        age: 45,
+        hobby: 'swimming'
+    }
+]

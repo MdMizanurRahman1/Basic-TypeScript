@@ -28,3 +28,23 @@ var person2 = {
     age: 24,
 };
 console.log(person.age);
+// array
+var numbers = [12, 34, 45, 67, 98];
+var num1 = [12, 34, 'stry'];
+var persons = [
+    {
+        name: 'Shah Alam',
+        age: 23,
+        hobby: 'cycling'
+    },
+    {
+        name: 'Shaham',
+        age: 20,
+        hobby: 'chilling'
+    },
+    {
+        name: 'Shahamam',
+        age: 45,
+        hobby: 'swimming'
+    }
+];
