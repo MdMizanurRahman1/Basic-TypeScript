@@ -28,3 +28,25 @@ type stringOrNumber = string | number;
 let nameId: stringOrNumber = 2345;
 nameId = 'web-123';
 nameId = 1234;
+
+type numOrString = string | number;
+let youTube: numOrString = 1234;
+youTube = 'sofia';
+
+// object
+
+interface Person { name: string; age: number; hobby?: string }
+
+let person: Person = {
+    name: 'Shah Alam',
+    age: 23,
+    hobby: 'cycling'
+}
+
+let person2: Person = {
+    name: 'Mousumi',
+    age: 24,
+
+}
+
+console.log(person.age);
