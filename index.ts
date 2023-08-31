@@ -73,3 +73,50 @@ const persons: Person[] = [
         hobby: 'swimming'
     }
 ]
+
+// function
+
+const greeting = (name: string): void => {
+    console.log(`Hello Mr. ${name}`);
+}
+
+greeting('Mizan');
+
+const add = (a: number, b: number): number => {
+    return a + b
+}
+
+console.log(add(5, 7));
+
+const introduce = (person: Person): void => {
+    console.log(`Hello, My name is ${person.name}, I am ${person.age} years old. My hobby is ${person.hobby}`);
+}
+introduce({
+    name: 'Mousumi',
+    age: 24,
+    hobby: 'cycling'
+})
+
+// destrucring
+
+const introduce2 = ({ name, age, hobby }: Person): void => {
+    console.log(`Hello, My name is ${name}, I am ${age} years old. My hobby is ${hobby}`);
+}
+introduce2({
+    name: 'Shah Alam',
+    age: 23,
+    hobby: 'cycling'
+})
+
+// generics
+
+const deviceName = <T>(id: T): T => {
+    return id
+}
+console.log(deviceName('this is apple phone'))
+
+const getArray = <T>(arr: T[]): T[] => {
+    return arr;
+}
+
+console.log(getArray([23, 34, 45, 45, 'asdd', true]));

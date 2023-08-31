@@ -48,3 +48,39 @@ var persons = [
         hobby: 'swimming'
     }
 ];
+// function
+var greeting = function (name) {
+    console.log("Hello Mr. ".concat(name));
+};
+greeting('Mizan');
+var add = function (a, b) {
+    return a + b;
+};
+console.log(add(5, 7));
+var introduce = function (person) {
+    console.log("Hello, My name is ".concat(person.name, ", I am ").concat(person.age, " years old. My hobby is ").concat(person.hobby));
+};
+introduce({
+    name: 'Mousumi',
+    age: 24,
+    hobby: 'cycling'
+});
+// destrucring
+var introduce2 = function (_a) {
+    var name = _a.name, age = _a.age, hobby = _a.hobby;
+    console.log("Hello, My name is ".concat(name, ", I am ").concat(age, " years old. My hobby is ").concat(hobby));
+};
+introduce2({
+    name: 'Shah Alam',
+    age: 23,
+    hobby: 'cycling'
+});
+// generics
+var deviceName = function (id) {
+    return id;
+};
+console.log(deviceName('this is apple phone'));
+var getArray = function (arr) {
+    return arr;
+};
+console.log(getArray([23, 34, 45, 45, 'asdd', true]));
