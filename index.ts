@@ -120,3 +120,21 @@ const getArray = <T>(arr: T[]): T[] => {
 }
 
 console.log(getArray([23, 34, 45, 45, 'asdd', true]));
+
+
+// enum type
+
+enum Weekend {
+    SAT = 1,
+    SUN = 'Sunday',
+    MON = 5,
+    FRI
+}
+
+console.log(Weekend.SAT);
+
+enum Role {
+    ADMIN = 5,
+    READ_ONLY,
+    AUTHOR = 'Monday'
+}

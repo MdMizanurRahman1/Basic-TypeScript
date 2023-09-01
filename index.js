@@ -84,3 +84,18 @@ var getArray = function (arr) {
     return arr;
 };
 console.log(getArray([23, 34, 45, 45, 'asdd', true]));
+// enum type
+var Weekend;
+(function (Weekend) {
+    Weekend[Weekend["SAT"] = 1] = "SAT";
+    Weekend["SUN"] = "Sunday";
+    Weekend[Weekend["MON"] = 5] = "MON";
+    Weekend[Weekend["FRI"] = 6] = "FRI";
+})(Weekend || (Weekend = {}));
+console.log(Weekend.SAT);
+var Role;
+(function (Role) {
+    Role[Role["ADMIN"] = 5] = "ADMIN";
+    Role[Role["READ_ONLY"] = 6] = "READ_ONLY";
+    Role["AUTHOR"] = "Monday";
+})(Role || (Role = {}));
