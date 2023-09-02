@@ -99,3 +99,11 @@ var Role;
     Role[Role["READ_ONLY"] = 6] = "READ_ONLY";
     Role["AUTHOR"] = "Monday";
 })(Role || (Role = {}));
+// Tuple type data
+var people;
+people = [101, "anis"];
+console.log(people);
+console.log(people[0]);
+console.log(people[1]);
+people.push(102, "sakib");
+console.log(people);

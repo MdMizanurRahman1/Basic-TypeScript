@@ -138,3 +138,15 @@ enum Role {
     READ_ONLY,
     AUTHOR = 'Monday'
 }
+
+// Tuple type data
+
+let people: [number, String];
+people = [101, "anis"];
+
+console.log(people);
+console.log(people[0]);
+console.log(people[1]);
+
+people.push(102, "sakib");
+console.log(people);
