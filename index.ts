@@ -150,3 +150,13 @@ console.log(people[1]);
 
 people.push(102, "sakib");
 console.log(people);
+
+let usersAll: [number, String];
+usersAll = [1034001, "aminqs"];
+
+console.log(usersAll);
+console.log(usersAll[0]);
+console.log(usersAll[1]);
+
+usersAll.push(34622, "sakib");
+console.log(usersAll);
