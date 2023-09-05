@@ -160,3 +160,24 @@ console.log(usersAll[1]);
 
 usersAll.push(34622, "sakib");
 console.log(usersAll);
+
+//Array type
+
+let usersName: Array<string>;
+usersName = ["anisul islam", "rabeya khatun", "pinky rani"];
+
+// users.sort();
+console.log(usersName);
+
+usersName.push("alamin hossain");
+console.log(usersName);
+
+usersName.pop();
+console.log(usersName);
+
+usersName.unshift("mizan mia");
+console.log(usersName);
+
+usersName.shift();
+console.log(usersName);
+
