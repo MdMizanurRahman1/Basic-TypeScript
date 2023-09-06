@@ -142,7 +142,7 @@ enum Role {
 // Tuple type data
 
 let people: [number, String];
-people = [101, "anis"];
+people = [101, "Joyela"];
 
 console.log(people);
 console.log(people[0]);
@@ -164,7 +164,7 @@ console.log(usersAll);
 //Array type
 
 let usersName: Array<string>;
-usersName = ["anisul islam", "rabeya khatun", "pinky rani"];
+usersName = ["Joyelaul islam", "rabeya khatun", "pinky rani"];
 
 // users.sort();
 console.log(usersName);
@@ -180,4 +180,24 @@ console.log(usersName);
 
 usersName.shift();
 console.log(usersName);
+
+
+// object type
+
+
+let personName: object;
+personName = { name1: "Joyela" };
+console.log(personName);
+
+let userSample: object[];
+userSample = [];
+
+let user3: { userName: string, userId: number };
+user3 = { userName: "Joyela", userId: 187 };
+userSample.push(user3);
+
+let user4: { userName: string, userId: number };
+user4 = { userName: "bura", userId: 155 };
+
+userSample.push(user4);
 

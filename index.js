@@ -101,7 +101,7 @@ var Role;
 })(Role || (Role = {}));
 // Tuple type data
 var people;
-people = [101, "anis"];
+people = [101, "Joyela"];
 console.log(people);
 console.log(people[0]);
 console.log(people[1]);
@@ -116,7 +116,7 @@ usersAll.push(34622, "sakib");
 console.log(usersAll);
 //Array type
 var usersName;
-usersName = ["anisul islam", "rabeya khatun", "pinky rani"];
+usersName = ["Joyelaul islam", "rabeya khatun", "pinky rani"];
 // users.sort();
 console.log(usersName);
 usersName.push("alamin hossain");
@@ -127,3 +127,15 @@ usersName.unshift("mizan mia");
 console.log(usersName);
 usersName.shift();
 console.log(usersName);
+// object type
+var personName;
+personName = { name1: "Joyela" };
+console.log(personName);
+var userSample;
+userSample = [];
+var user3;
+user3 = { userName: "Joyela", userId: 187 };
+userSample.push(user3);
+var user4;
+user4 = { userName: "bura", userId: 155 };
+userSample.push(user4);
