@@ -139,3 +139,13 @@ userSample.push(user3);
 var user4;
 user4 = { userName: "bura", userId: 155 };
 userSample.push(user4);
+// enum string type
+var NormalDirections;
+(function (NormalDirections) {
+    NormalDirections[NormalDirections["NorthWest"] = 0] = "NorthWest";
+    NormalDirections[NormalDirections["Eastern"] = 1] = "Eastern";
+    NormalDirections[NormalDirections["Southern"] = 2] = "Southern";
+    NormalDirections[NormalDirections["Westest"] = 3] = "Westest";
+})(NormalDirections || (NormalDirections = {}));
+var recentDirection = NormalDirections.NorthWest;
+console.log(recentDirection);

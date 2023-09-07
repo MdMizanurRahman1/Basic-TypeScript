@@ -201,3 +201,14 @@ user4 = { userName: "bura", userId: 155 };
 
 userSample.push(user4);
 
+// enum string type
+
+enum NormalDirections {
+    NorthWest,
+    Eastern,
+    Southern,
+    Westest
+}
+let recentDirection = NormalDirections.NorthWest;
+
+console.log(recentDirection);
