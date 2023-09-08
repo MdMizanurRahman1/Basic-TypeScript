@@ -149,3 +149,9 @@ var NormalDirections;
 })(NormalDirections || (NormalDirections = {}));
 var recentDirection = NormalDirections.NorthWest;
 console.log(recentDirection);
+// tuple type
+// define our tuple
+var myTuple;
+// initialize correctly
+myTuple = [135, false, 'do challenging coding'];
+console.log(myTuple);

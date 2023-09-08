@@ -212,3 +212,12 @@ enum NormalDirections {
 let recentDirection = NormalDirections.NorthWest;
 
 console.log(recentDirection);
+
+// tuple type
+
+// define our tuple
+let myTuple: [number, boolean, string];
+
+// initialize correctly
+myTuple = [135, false, 'do challenging coding'];
+console.log(myTuple);
