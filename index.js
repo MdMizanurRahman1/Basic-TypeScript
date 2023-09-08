@@ -155,3 +155,7 @@ var myTuple;
 // initialize correctly
 myTuple = [135, false, 'do challenging coding'];
 console.log(myTuple);
+// define our tuple
+var thisTuple;
+// initialized incorrectly which throws an error
+thisTuple = [5, true, 'okay'];

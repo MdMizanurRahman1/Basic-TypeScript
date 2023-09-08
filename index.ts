@@ -221,3 +221,9 @@ let myTuple: [number, boolean, string];
 // initialize correctly
 myTuple = [135, false, 'do challenging coding'];
 console.log(myTuple);
+
+// define our tuple
+let thisTuple: [number, boolean, string];
+
+// initialized incorrectly which throws an error
+thisTuple = [5, true, 'okay'];
