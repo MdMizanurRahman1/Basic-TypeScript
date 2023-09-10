@@ -227,3 +227,17 @@ let thisTuple: [number, boolean, string];
 
 // initialized incorrectly which throws an error
 thisTuple = [5, true, 'okay'];
+
+// interface
+
+interface Triangle {
+    heightNum: number,
+    widthNum: number,
+    baseNum: number
+}
+
+const Triangle: Triangle = {
+    heightNum: 35,
+    widthNum: 45,
+    baseNum: 13
+};

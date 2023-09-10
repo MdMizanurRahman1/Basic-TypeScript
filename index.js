@@ -159,3 +159,8 @@ console.log(myTuple);
 var thisTuple;
 // initialized incorrectly which throws an error
 thisTuple = [5, true, 'okay'];
+var Triangle = {
+    heightNum: 35,
+    widthNum: 45,
+    baseNum: 13
+};
