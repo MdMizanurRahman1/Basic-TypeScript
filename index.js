@@ -164,3 +164,8 @@ var Triangle = {
     widthNum: 45,
     baseNum: 13
 };
+function printCode(code) {
+    console.log("My status code is not selected yet ".concat(code, "."));
+}
+printCode('My name is Something');
+printCode(401);

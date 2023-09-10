@@ -241,3 +241,10 @@ const Triangle: Triangle = {
     widthNum: 45,
     baseNum: 13
 };
+
+
+function printCode(code: string | number) {
+    console.log(`My status code is not selected yet ${code}.`)
+}
+printCode('My name is Something');
+printCode(401);
