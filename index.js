@@ -142,12 +142,12 @@ userSample.push(user4);
 // enum string type
 var NormalDirections;
 (function (NormalDirections) {
-    NormalDirections[NormalDirections["NorthWest"] = 0] = "NorthWest";
+    NormalDirections[NormalDirections["southpoolWest"] = 0] = "southpoolWest";
     NormalDirections[NormalDirections["Eastern"] = 1] = "Eastern";
     NormalDirections[NormalDirections["Southern"] = 2] = "Southern";
-    NormalDirections[NormalDirections["Westest"] = 3] = "Westest";
+    NormalDirections[NormalDirections["westborderest"] = 3] = "westborderest";
 })(NormalDirections || (NormalDirections = {}));
-var recentDirection = NormalDirections.NorthWest;
+var recentDirection = NormalDirections.southpoolWest;
 console.log(recentDirection);
 // tuple type
 // define our tuple
@@ -169,3 +169,14 @@ function printCode(code) {
 }
 printCode('My name is Something');
 printCode(401);
+var maindirec;
+(function (maindirec) {
+    maindirec[maindirec["southpool"] = 1] = "southpool";
+    maindirec[maindirec["Eastzone"] = 2] = "Eastzone";
+    maindirec[maindirec["Southcorner"] = 3] = "Southcorner";
+    maindirec[maindirec["westborder"] = 4] = "westborder";
+})(maindirec || (maindirec = {}));
+// logs 1
+console.log(maindirec.southpool);
+// logs 4
+console.log(maindirec.westborder);

@@ -204,12 +204,12 @@ userSample.push(user4);
 // enum string type
 
 enum NormalDirections {
-    NorthWest,
+    southpoolWest,
     Eastern,
     Southern,
-    Westest
+    westborderest
 }
-let recentDirection = NormalDirections.NorthWest;
+let recentDirection = NormalDirections.southpoolWest;
 
 console.log(recentDirection);
 
@@ -248,3 +248,15 @@ function printCode(code: string | number) {
 }
 printCode('My name is Something');
 printCode(401);
+
+
+enum maindirec {
+    southpool = 1,
+    Eastzone,
+    Southcorner,
+    westborder
+}
+// logs 1
+console.log(maindirec.southpool);
+// logs 4
+console.log(maindirec.westborder);
