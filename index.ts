@@ -244,7 +244,7 @@ const Triangle: Triangle = {
 
 
 function printCode(code: string | number) {
-    console.log(`My status code is not selected yet ${code}.`)
+    console.log(`My Developed code is not selected yet ${code}.`)
 }
 printCode('My name is Something');
 printCode(401);
@@ -260,3 +260,15 @@ enum maindirec {
 console.log(maindirec.southpool);
 // logs 4
 console.log(maindirec.westborder);
+
+
+enum DevelopedCodes {
+    NotCannotBe = 404,
+    Successful = 200,
+    AcceptedAndRe = 202,
+    BadRequestWith = 400
+}
+// logs 404
+console.log(DevelopedCodes.NotCannotBe);
+// logs 200
+console.log(DevelopedCodes.Successful);

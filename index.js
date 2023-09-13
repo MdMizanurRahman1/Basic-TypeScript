@@ -165,7 +165,7 @@ var Triangle = {
     baseNum: 13
 };
 function printCode(code) {
-    console.log("My status code is not selected yet ".concat(code, "."));
+    console.log("My Developed code is not selected yet ".concat(code, "."));
 }
 printCode('My name is Something');
 printCode(401);
@@ -180,3 +180,14 @@ var maindirec;
 console.log(maindirec.southpool);
 // logs 4
 console.log(maindirec.westborder);
+var DevelopedCodes;
+(function (DevelopedCodes) {
+    DevelopedCodes[DevelopedCodes["NotCannotBe"] = 404] = "NotCannotBe";
+    DevelopedCodes[DevelopedCodes["Successful"] = 200] = "Successful";
+    DevelopedCodes[DevelopedCodes["AcceptedAndRe"] = 202] = "AcceptedAndRe";
+    DevelopedCodes[DevelopedCodes["BadRequestWith"] = 400] = "BadRequestWith";
+})(DevelopedCodes || (DevelopedCodes = {}));
+// logs 404
+console.log(DevelopedCodes.NotCannotBe);
+// logs 200
+console.log(DevelopedCodes.Successful);
