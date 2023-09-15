@@ -272,3 +272,23 @@ enum DevelopedCodes {
 console.log(DevelopedCodes.NotCannotBe);
 // logs 200
 console.log(DevelopedCodes.Successful);
+
+// alies and interface
+
+type CarYearNumber = number
+type CarTypeString = string
+type ModelOfCar = string
+type Car = {
+    year: CarYearNumber,
+    type: CarTypeString,
+    model: ModelOfCar
+}
+
+const CarYearNumber: CarYearNumber = 2001
+const CarTypeString: CarTypeString = "Toyota Yaris"
+const ModelOfCar: ModelOfCar = "Corolla 2021"
+const car: Car = {
+    year: CarYearNumber,
+    type: CarTypeString,
+    model: ModelOfCar
+};

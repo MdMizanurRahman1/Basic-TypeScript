@@ -191,3 +191,11 @@ var DevelopedCodes;
 console.log(DevelopedCodes.NotCannotBe);
 // logs 200
 console.log(DevelopedCodes.Successful);
+var CarYearNumber = 2001;
+var CarTypeString = "Toyota Yaris";
+var ModelOfCar = "Corolla 2021";
+var car = {
+    year: CarYearNumber,
+    type: CarTypeString,
+    model: ModelOfCar
+};
