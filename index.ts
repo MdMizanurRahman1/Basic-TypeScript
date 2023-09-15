@@ -231,13 +231,13 @@ thisTuple = [5, true, 'okay'];
 // interface
 
 interface Triangle {
-    heightNum: number,
+    TNum: number,
     widthNum: number,
     baseNum: number
 }
 
-const Triangle: Triangle = {
-    heightNum: 35,
+const triangle: Triangle = {
+    TNum: 35,
     widthNum: 45,
     baseNum: 13
 };
@@ -291,4 +291,17 @@ const car: Car = {
     year: CarYearNumber,
     type: CarTypeString,
     model: ModelOfCar
+};
+
+
+interface Rombus {
+    TT: number,
+    widthT: number,
+    length: number
+}
+
+const rombus: Rombus = {
+    TT: 20,
+    widthT: 10,
+    length: 35
 };

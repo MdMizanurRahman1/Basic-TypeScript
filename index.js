@@ -159,8 +159,8 @@ console.log(myTuple);
 var thisTuple;
 // initialized incorrectly which throws an error
 thisTuple = [5, true, 'okay'];
-var Triangle = {
-    heightNum: 35,
+var triangle = {
+    TNum: 35,
     widthNum: 45,
     baseNum: 13
 };
@@ -198,4 +198,9 @@ var car = {
     year: CarYearNumber,
     type: CarTypeString,
     model: ModelOfCar
+};
+var rombus = {
+    TT: 20,
+    widthT: 10,
+    length: 35
 };
