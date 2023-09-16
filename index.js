@@ -204,3 +204,8 @@ var rombus = {
     widthT: 10,
     length: 35
 };
+function TypePrint(code) {
+    console.log("My type print code is ".concat(code, "."));
+}
+TypePrint(104);
+TypePrint('Laila');

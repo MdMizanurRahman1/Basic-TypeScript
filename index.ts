@@ -305,3 +305,10 @@ const rombus: Rombus = {
     widthT: 10,
     length: 35
 };
+
+
+function TypePrint(code: string | number) {
+    console.log(`My type print code is ${code}.`)
+}
+TypePrint(104);
+TypePrint('Laila');
