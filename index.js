@@ -209,3 +209,6 @@ function TypePrint(code) {
 }
 TypePrint(104);
 TypePrint('Laila');
+var value = null;
+value = 'hello I am Here';
+value = undefined;

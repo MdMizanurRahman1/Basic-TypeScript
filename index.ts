@@ -312,3 +312,8 @@ function TypePrint(code: string | number) {
 }
 TypePrint(104);
 TypePrint('Laila');
+
+
+let value: string | undefined | null = null;
+value = 'hello I am Here';
+value = undefined;
