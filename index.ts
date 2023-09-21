@@ -317,3 +317,7 @@ TypePrint('Laila');
 let value: string | undefined | null = null;
 value = 'hello I am Here';
 value = undefined;
+
+
+const names: string[] = [];
+names.push("Dayton"); 

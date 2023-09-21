@@ -212,3 +212,5 @@ TypePrint('Laila');
 var value = null;
 value = 'hello I am Here';
 value = undefined;
+var names = [];
+names.push("Dayton");
