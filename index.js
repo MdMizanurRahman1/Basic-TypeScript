@@ -214,3 +214,6 @@ value = 'hello I am Here';
 value = undefined;
 var names = [];
 names.push("Dayton");
+// define our tuple
+var theTuple;
+theTuple = [10, true, '15'];

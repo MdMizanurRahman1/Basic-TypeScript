@@ -320,4 +320,11 @@ value = undefined;
 
 
 const names: string[] = [];
-names.push("Dayton"); 
+names.push("Dayton");
+
+
+// define our tuple
+let theTuple: [number, boolean, string];
+
+
+theTuple = [10, true, '15'];
