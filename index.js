@@ -217,3 +217,8 @@ names.push("Dayton");
 // define our tuple
 var theTuple;
 theTuple = [10, true, '15'];
+// define our tuple
+var mixTuple;
+mixTuple = [589, false, 'Lets do coding'];
+mixTuple.push('Error 404');
+console.log(mixTuple);

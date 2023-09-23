@@ -328,3 +328,13 @@ let theTuple: [number, boolean, string];
 
 
 theTuple = [10, true, '15'];
+
+
+
+// define our tuple
+let mixTuple: [number, boolean, string];
+
+mixTuple = [589, false, 'Lets do coding'];
+
+mixTuple.push('Error 404');
+console.log(mixTuple);
