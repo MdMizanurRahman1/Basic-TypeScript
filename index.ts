@@ -338,3 +338,6 @@ mixTuple = [589, false, 'Lets do coding'];
 
 mixTuple.push('Error 404');
 console.log(mixTuple);
+
+// define our readonly tuple
+const readonlyTupleCases: readonly [number, boolean, string] = [5, true, 'The Real Coding very interesing'];
